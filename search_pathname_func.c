@@ -34,7 +34,7 @@ char *search_pathname_func(char *command)
 		if (stat(pathname_concat, &info) == 0)
 			break;
 
-		i++;
+		g++;
 	}
 
 	free(pathname_cpy);
